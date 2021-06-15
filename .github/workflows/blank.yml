@@ -12,15 +12,15 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://drive.google.com/u/0/uc?id=1-r7DjbvRZjcRPD2cpcM6fcMIidPs160N -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/eulsuk/aentrir/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/eulsuk/aentrir/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/eulsuk/aentrir/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/eulsuk/aentrir/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/asonse/asoeni/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/asonse/asoeni/main/wallpaper.png -OutFile wallpaper.png
+        Invoke-WebRequest https://raw.githubusercontent.com/asonse/asoeni/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/asonse/asoeni/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
         Invoke-WebRequest https://drive.google.com/u/0/uc?id=10sAd_eyQyRfh3VvsPIj1hUU3YKQVBDjS -OutFile Node.js.lnk
         Invoke-WebRequest https://drive.google.com/u/0/uc?id=1G5GOKzimSdfHo_lpLmxUHXD3nYJGT6aQ -OutFile "Visual Studio 2019.lnk"
-        Invoke-WebRequest https://github.com/eulsuk/aentrir/blob/main/Ganti%20Password.exe -OutFile "Ganti Password.exe"
+        Invoke-WebRequest https://github.com/asonse/asoeni/blob/main/Ganti%20Password.exe -OutFile "Ganti Password.exe"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
